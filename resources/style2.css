@@ -1,0 +1,176 @@
+/* Entire page */
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  margin: 0;
+  text-align: center;
+  opacity: 0.9;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+}
+
+div.logo {
+  display: flex;
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+nav span {
+  display: inline-block;
+  justify-content: space-around;
+  padding: 20px 15px;
+}
+
+nav span a {
+  color: seashell;
+}
+
+/* Jumbotron Image */
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 70px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-image: url('images/img-mission-background.jpg');
+  height: 700px;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission {
+  position: absolute;
+  background-color: black;
+  width: 1200px;
+  height: 100px;
+  text-align: center;
+}
+
+.mission h2, h4 {
+  margin: 0 auto;
+  padding: 8px 0px;
+}
+
+/* Tea of the Month */
+
+.toof {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+  margin: 60px 0px;
+}
+
+.toof-head h2, h4 {
+  margin: 0 auto;
+  padding: 8px 0px;
+}
+
+.toof-top-row, .toof-bottom-row {
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+  margin-top: 20px;
+}
+
+.toof-pair img {
+  height: 200px;
+  width: 300px;
+}
+
+.toof-pair h4 {
+  margin-top: 5px;
+  padding: 0px;
+}
+
+.toof-bottom-row {
+  width: 660px;
+}
+
+/* Locations */
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1200px;
+  height: 500px;
+  background-image: url('images/img-locations-background.jpg');
+}
+
+.locations h2 {
+  margin-top: 55px;
+  margin-bottom: 0px;
+}
+
+.locations-addresses {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 980px;
+  margin-top: 10px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  width:300px;
+  opacity: 1;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+}
+
+.footer {
+  height: 200px;
+}
+
+.footer h2 {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.copyright {
+  align-self: flex-start;
+  margin-left: 20px;
+}
